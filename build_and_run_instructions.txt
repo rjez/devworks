@@ -1,0 +1,8 @@
+Run and build instructions:
+
+1. Make sure that you have Maven installed: https://maven.apache.org/install.html
+2. Make sure that you have Java 11 or higher installed: https://openjdk.java.net/projects/jdk/
+3. Run system command line terminal and go to project root folder: .../CountryRouting/
+4. Type and run command: mvn clean package
+5. Run java -jar -Xms128m -Xmx1024m routing-0.0.1-SNAPSHOT-LOCAL.jar
+6. open http://localhost:31004/api/routing/CZE/ITA
